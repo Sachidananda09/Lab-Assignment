@@ -1,3 +1,4 @@
+//area of trianle
 #include <stdio.h>
 
 int main() {
