@@ -1,17 +1,18 @@
+//4.celcius and farenheit
 #include <stdio.h>
 
 int main() {
     float fahrenheit, celsius;
 
     
-    printf("Enter temperature in Fahrenheit: ");
-    scanf("%f", &fahrenheit);
+    printf("Enter in celsius: ");
+    scanf("%f", &celcius);
 
     
-    celsius = (fahrenheit - 32) * 5.0 / 9.0;
+     fahrenheit = (celsius * 9/5) + 32;
 
    
-    printf("%.2f Fahrenheit is equal to %.2f Celsius.\n", fahrenheit, celsius);
+    printf("%.2f fareheit %.2f Celsius.\n", fahrenheit, celsius);
 
     return 0;
 }
